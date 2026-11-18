@@ -75,7 +75,7 @@ a:hover {
     font-size: 1.5rem;
 	width: 92vw;
   }
-  #rcimage {
+  #rcimage, hr {
     display: none;
   }
   #rclogo {
