@@ -44,8 +44,11 @@ h3 {
   margin-left: -15px;
   margin-top: 5px;
 }
-a:link, a:hover, a:visited {
+a:link, a:visited {
   color: #FA3C28;
+}
+a:hover {
+  color: #FF6644;
 }
 #rclogo, #rcimage {
   height: 200px;
