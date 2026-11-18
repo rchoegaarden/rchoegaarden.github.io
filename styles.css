@@ -12,8 +12,11 @@ hr {
   background: #FA3C28;
   height: 2px;
   border: 0px;
-  width: 95vw;
+  width: calc(95vw - 10px);
   margin: 0px;
+}
+hr.full {
+  width: 100%;
 }
 .sec {
   background-color: #F0F0F0;
