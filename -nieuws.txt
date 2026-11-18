@@ -1,4 +1,4 @@
 <strong>Nieuws</strong>
 <p>Volg ons op Facebook:<br><a href="https://www.facebook.com/share/1DkyrEt39e/">@repair-cafe-hoegaarden</a></p>
 <hr>
-<p>Volg ons op Instagram:<br>@repair-cafe-hoegaarden</p
+<p>Volg ons op Instagram:<br><a href="https://www.instagram.com/repair-cafe-hoegaarden">@repair-cafe-hoegaarden</a></p
