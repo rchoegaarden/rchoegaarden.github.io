@@ -73,7 +73,7 @@ a:hover {
 @media (max-width: 800px) {
   body {
     font-size: 1.5rem;
-	width: 90vw;
+	width: 92vw;
   }
   #rcimage {
     display: none;
