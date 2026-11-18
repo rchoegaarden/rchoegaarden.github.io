@@ -12,7 +12,7 @@ hr {
   background: #FA3C28;
   height: 2px;
   border: 0px;
-  width: calc(95vw - 10px);
+  width: calc(95vw - 20px);
   margin: 0px;
 }
 hr.full {
