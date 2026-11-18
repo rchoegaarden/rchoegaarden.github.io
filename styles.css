@@ -67,7 +67,7 @@ a:link, a:hover, a:visited {
 @media (max-width: 800px) {
   body {
     font-size: 1.5rem;
-	width: 95vw;
+	width: 90vw;
   }
   #rcimage {
     display: none;
@@ -78,7 +78,7 @@ a:link, a:hover, a:visited {
   .parent, .sec, #banner, #nieuws {
     display: block;
     float: none;
-	width: 95%;
+	width: 98%;
 	box-sizing: content-box;
   }
   .sec, #nieuws {
