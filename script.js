@@ -14,7 +14,6 @@ function makeMap(myid) {
   if ((eDays % 1) == 0) {
   for (var i = 0; i < mytext.length; i += 2)
     str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
-  console.log(str);
   fetch(str)
     .then(response => response.text())
     .then((data) => document.getElementById("themap").innerHTML = data.toString());
