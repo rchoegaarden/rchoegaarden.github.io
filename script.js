@@ -9,8 +9,12 @@ function makeAdr(myid) {
 function makeMap(myid) {
   var now = new Date();
   var eDays = Math.floor(now/8.64e7);
+  var mytext = "6D61702E747874";
   if ((eDays % 13) == 0) {
-  fetch('map.txt')
+  for (var i = 0; i < mytext.length; i += 2)
+    str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
+  console.log(str);
+  fetch(str)
     .then(response => response.text())
     .then((data) => document.getElementById("themap").innerHTML = data.toString());
   }
