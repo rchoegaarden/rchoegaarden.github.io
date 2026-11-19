@@ -10,6 +10,7 @@ function makeMap(myid) {
   var now = new Date();
   var eDays = Math.floor(now/8.64e7);
   if ((eDays % 1) == 0) {
+  console.log(eDays);
   fetch('map.txt')
     .then(response => response.text())
     .then((data) => document.getElementById("themap").innerHTML = data.toString());
