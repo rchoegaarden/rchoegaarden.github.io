@@ -41,8 +41,11 @@ hr.full {
 }
 h3 {
   padding-top: 0px;
-  margin-left: -15px;
+  xmargin-left: -15px;
   margin-top: 5px;
+}
+.sec p {
+  margin-left: 15px;
 }
 a:link, a:visited {
   color: #FA3C28;
