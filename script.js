@@ -6,6 +6,12 @@ function makeAdr(myid) {
   document.getElementById(myid).innerHTML = str;
 }
 
+function makeMap(myid) {
+fetch('map.txt')
+  .then(response => response.text())
+  .then((data) => document.getElementById("themap").innerHTML = data.toString());
+}
+
 function makeCalendar(mydata) {
   var outstr = "";
   var line;
@@ -41,5 +47,6 @@ function doAll() {
 getNews();
 getCalendar();
 makeAdr("emtext1");
+makeMap();
 }
     
