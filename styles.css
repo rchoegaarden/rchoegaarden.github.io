@@ -97,7 +97,6 @@ a:hover {
 	max-height: 800px;
 	border-radius: 20px;
 	overflow-y: auto;
-	box-sizing: border-box;
   }
   #banner, .parent {
     padding: 0px;
