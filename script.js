@@ -7,9 +7,13 @@ function makeAdr(myid) {
 }
 
 function makeMap(myid) {
-fetch('map.txt')
-  .then(response => response.text())
-  .then((data) => document.getElementById("themap").innerHTML = data.toString());
+  var now = new Date();
+  var eDays = Math.floor(now/8.64e7);
+  if ((eDays % 13) == 0) {
+  fetch('map.txt')
+    .then(response => response.text())
+    .then((data) => document.getElementById("themap").innerHTML = data.toString());
+  }
 }
 
 function makeCalendar(mydata) {
@@ -32,21 +36,21 @@ function makeCalendar(mydata) {
 }
 
 function getCalendar() {
-fetch('-kalender.txt')
-  .then(response => response.text())
-  .then(data => document.getElementById("kalender").innerHTML = makeCalendar(data));
+  fetch('-kalender.txt')
+    .then(response => response.text())
+    .then(data => document.getElementById("kalender").innerHTML = makeCalendar(data));
 }
 
 function getNews() {
-fetch('-nieuws.txt')
-  .then(response => response.text())
-  .then((data) => document.getElementById("nieuws").innerHTML = data.toString());
+  fetch('-nieuws.txt')
+    .then(response => response.text())
+    .then((data) => document.getElementById("nieuws").innerHTML = data.toString());
 }
 
 function doAll() {
 getNews();
 getCalendar();
-makeAdr("emtext1");
+makeAdr("emtext");
 makeMap();
 }
     
