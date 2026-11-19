@@ -10,7 +10,7 @@ body {
 }
 hr {
   background: #FA3C28;
-  width: calc(95vw - 20px);
+  width: calc(100vw - 25px);
   height: 2px;
   border: 0px;
   margin: 0px;
