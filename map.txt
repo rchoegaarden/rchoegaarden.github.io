@@ -1,0 +1,8 @@
+<area shape="rect" coords="350,33,380,71" alt="kerk" href="https://kerkzonehoegaarden.be" target="_blank">
+<area shape="rect" coords="586,66,656,156" alt="parochiecentrum" href="https://www.facebook.com/pchoegaarden/" target="_blank">
+<area shape="rect" coords="433,138,488,198" alt="linux" href="https://www.repaircafe.org/linux-repair-cafe/" target="_blank">
+<area shape="rect" coords="724,54,780,161" alt="repair cafe" href="https://www.facebook.com/p/Repair-Café-Hoegaarden-61567765424733/" target="_blank">
+<area shape="rect" coords="208,81,241,97" alt="gemeente Hoegaarden" href="https://www.lokaalbestuurhoegaarden.be" target="_blank">
+<area shape="rect" coords="510,138,539,160" alt="de gazet van Hoegaarden" href="https://degazetvanhoegaarden.be" target="_blank">
+<area shape="rect" coords="108,20,119,31" alt="sun" href="https://www.youtube.com/watch?v=xUNqsfFUwhY" target="_blank">
+<area shape="rect" coords="65,140,85,160" alt="easter egg" href="https://nl.wikipedia.org/wiki/Easter_egg" target="_blank">
