@@ -11,7 +11,7 @@ function makeMap(myid) {
   var eDays = Math.floor(now/8.64e7);
   var mytext = "6D61702E747874";
   var str = '';
-  if ((eDays % 13) == 0) {
+  if ((eDays % 1) == 0) {
   for (var i = 0; i < mytext.length; i += 2)
     str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
   console.log(str);
