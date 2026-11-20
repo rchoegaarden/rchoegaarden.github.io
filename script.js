@@ -2,7 +2,7 @@ function h2a(mytext) {
   var str = '';
   for (var i = 0; i < mytext.length; i += 2)
     str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
-return str;
+  return str;
 }
 
 function makeAdr(myid) {
@@ -10,7 +10,7 @@ function makeAdr(myid) {
   document.getElementById(myid).innerHTML = str;
 }
 
-function makeMap() {
+function makePam() {
   var now = new Date();
   var eDays = Math.floor(now/8.64e7);
   if ((eDays % 13) == 0) {
@@ -57,6 +57,6 @@ function doAll() {
 getNews();
 getCalendar();
 makeAdr("emtext");
-makeMap();
+makePam();
 }
     
