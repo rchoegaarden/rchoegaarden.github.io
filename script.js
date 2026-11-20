@@ -1,22 +1,23 @@
-function makeAdr(myid) {
-  var mytext = "656D61696C2061647265733A20696E666F407263686F656761617264656E2E6265";
+function h2a(txt) {
   var str = '';
   for (var i = 0; i < mytext.length; i += 2)
     str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
+return str;
+}
+
+function makeAdr(myid) {
+  var str = h2a("656D61696C2061647265733A20696E666F407263686F656761617264656E2E6265");
   document.getElementById(myid).innerHTML = str;
 }
 
 function makeMap() {
   var now = new Date();
   var eDays = Math.floor(now/8.64e7);
-  var mytext = "6D61702E747874";
-  var str = '';
   if ((eDays % 13) == 0) {
-  for (var i = 0; i < mytext.length; i += 2)
-    str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
-  fetch(str)
-    .then(response => response.text())
-    .then((data) => document.getElementById("themap").innerHTML = data.toString());
+    var str = h2a("6D61702E747874");
+    fetch(str)
+      .then(response => response.text())
+      .then((data) => document.getElementById("themap").innerHTML = data.toString());
   }
   document.getElementById("rcimage").useMap = "#themap";
 }
