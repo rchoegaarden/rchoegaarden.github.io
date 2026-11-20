@@ -1,4 +1,4 @@
-<map name="pam" id="pam">
+<map name="pam">
 <area shape="rect" coords="350,33,380,71" alt="kerk" href="https://kerkzonehoegaarden.be" target="_blank">
 <area shape="rect" coords="586,66,656,156" alt="parochiecentrum" href="https://www.facebook.com/pchoegaarden/" target="_blank">
 <area shape="rect" coords="433,138,488,198" alt="linux" href="https://www.repaircafe.org/linux-repair-cafe/" target="_blank">
