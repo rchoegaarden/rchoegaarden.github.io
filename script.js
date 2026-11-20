@@ -6,18 +6,19 @@ function makeAdr(myid) {
   document.getElementById(myid).innerHTML = str;
 }
 
-function makeMap(myid) {
+function makeMap() {
   var now = new Date();
   var eDays = Math.floor(now/8.64e7);
   var mytext = "6D61702E747874";
   var str = '';
-  if ((eDays % 13) == 0) {
+  if ((eDays % 1) == 0) {
   for (var i = 0; i < mytext.length; i += 2)
     str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
   fetch(str)
     .then(response => response.text())
     .then((data) => document.getElementById("themap").innerHTML = data.toString());
   }
+  document.document.getElementById("rcimage").useMap = "#themap";
 }
 
 function makeCalendar(mydata) {
