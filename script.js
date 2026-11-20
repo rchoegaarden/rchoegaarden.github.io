@@ -18,7 +18,7 @@ function makeMap() {
     .then(response => response.text())
     .then((data) => document.getElementById("themap").innerHTML = data.toString());
   }
-  document.document.getElementById("rcimage").useMap = "#themap";
+  document.getElementById("rcimage").useMap = "#themap";
 }
 
 function makeCalendar(mydata) {
