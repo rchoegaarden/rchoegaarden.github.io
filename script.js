@@ -1,4 +1,4 @@
-function h2a(txt) {
+function h2a(mytext) {
   var str = '';
   for (var i = 0; i < mytext.length; i += 2)
     str += String.fromCharCode(parseInt(mytext.substr(i, 2), 16));
