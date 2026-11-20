@@ -13,7 +13,7 @@ function makeAdr(myid) {
 function makeMap() {
   var now = new Date();
   var eDays = Math.floor(now/8.64e7);
-  if ((eDays % 1) == 0) {
+  if ((eDays % 13) == 0) {
     var str = h2a("6D61702E747874");
     fetch(str)
       .then(response => response.text())
