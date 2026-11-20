@@ -17,9 +17,9 @@ function makeMap() {
     var str = h2a("6D61702E747874");
     fetch(str)
       .then(response => response.text())
-      .then((data) => document.getElementById("themap").innerHTML = data.toString());
+      .then((data) => document.getElementById("pam").innerHTML = data.toString());
   }
-  document.getElementById("rcimage").useMap = "#themap";
+  document.getElementById("rcimage").useMap = "#pam";
 }
 
 function makeCalendar(mydata) {
