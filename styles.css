@@ -79,7 +79,8 @@ a:hover {
   #rcimage, hr:not(.full) {
     display: none;
   }
-  #rclogo {
+  #images {
+	max-width: fit-content;
 	margin: auto;
   }
   .parent, .sec, #banner, #nieuws {
