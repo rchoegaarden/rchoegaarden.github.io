@@ -81,7 +81,7 @@ a:hover {
   }
   #images {
 	max-width: fit-content;
-	margin: auto;
+	margin-inline: auto;
   }
   .parent, .sec, #banner, #nieuws {
     display: block;
