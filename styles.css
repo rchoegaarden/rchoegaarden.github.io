@@ -48,9 +48,11 @@ h3 {
 }
 a:link, a:visited {
   color: #E03010;
+  text-decoration: none;
 }
 a:hover {
   color: #EE5E3E;
+  text-decoration: underline;
 }
 #rclogo, #rcimage {
   height: 200px;
