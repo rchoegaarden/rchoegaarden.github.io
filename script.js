@@ -13,7 +13,6 @@ function makeAdr(myid) {
 function makePam() {
   var now = new Date();
   var eDays = Math.floor(now/8.64e7);
-  console.log(eDays, eDays % 13);
   if ((eDays % 13) == 0) {
     var str = h2a("6D61702E747874");
     fetch(str)
