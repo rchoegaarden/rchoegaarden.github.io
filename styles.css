@@ -1,7 +1,7 @@
 body {
   background-color: #FFFFFF;
   font-family: Verdana, Geneva, sans-serif;
-  font-size: 12.5px;
+  font-size: 0.9rem;
   line-height: 1.5;
   color: #50008C;
   padding: 10px;
@@ -73,7 +73,7 @@ a:hover {
 }
 @media (max-width: 800px) {
   body {
-    font-size: 14px;
+    font-size: 1.5rem;
 	width: 92vw;
   }
   #rcimage, hr:not(.full) {
