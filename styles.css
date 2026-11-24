@@ -58,6 +58,12 @@ a:hover {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+#rclogo {
+  width: px;
+}
+#rcimage {
+  width: 807px;
+}
 #nieuws {
   border-radius: 10px;
   width: 100%;
