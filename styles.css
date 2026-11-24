@@ -9,7 +9,7 @@ body {
   margin-right: 5px;
 }
 hr {
-  background: #FA3C28;
+  background: #E03010;
   width: calc(100% - 20px);
   height: 2px;
   border: 0px;
@@ -47,7 +47,7 @@ h3 {
   margin-left: 15px;
 }
 a:link, a:visited {
-  color: #FA3C28;
+  color: #E03010;
 }
 a:hover {
   color: #EE9988;
@@ -66,7 +66,7 @@ a:hover {
   margin-left: 10px;
   margin-right: 20px;
   margin-bottom: 5px;
-  background-color: #FCCF80;
+  background-color: #FCD0A0;
   float: none;
   overflow-y: auto;
   box-sizing: border-box;
